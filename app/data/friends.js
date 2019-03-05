@@ -8,7 +8,7 @@
 var friends = [
     {
       name: "Ahmed",
-      friendphoto: "https://via.placeholder.com/150",
+      photo: "https://via.placeholder.com/150",
       friendscore: [
         "3",
         "2",
@@ -25,7 +25,7 @@ var friends = [
     },
     {
         name: "Fred",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "5",
           "2",
@@ -41,7 +41,7 @@ var friends = [
       },
       {
         name: "Adam",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "1",
           "2",
@@ -58,7 +58,7 @@ var friends = [
       },
       {
         name: "Isaac",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "5",
           "4",
@@ -75,7 +75,7 @@ var friends = [
       },
       {
         name: "Nicolas",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "1",
           "2",
@@ -92,7 +92,7 @@ var friends = [
       },
       {
         name: "Robert",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "5",
           "2",
@@ -109,7 +109,7 @@ var friends = [
       },
       {
         name: "Daniel",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "2",
           "2",
@@ -126,7 +126,7 @@ var friends = [
       },
       {
         name: "Eric",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "1",
           "1",
@@ -143,7 +143,7 @@ var friends = [
       },
       {
         name: "Wilber",
-        friendphoto: "https://via.placeholder.com/150",
+        photo: "https://via.placeholder.com/150",
         friendscore: [
           "5",
           "5",

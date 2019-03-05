@@ -23,9 +23,6 @@ module.exports = function(app) {
     res.json(friends);
   });
 
-  // app.get("/api/waitlist", function(req, res) {
-  //   res.json(waitListData);
-  // });
 
   // API POST Requests
   // Below code handles when a user submits a form and thus submits data to the server.
@@ -55,8 +52,8 @@ module.exports = function(app) {
       console.log(friends[i]);
       totalDifference = 0;
 
-      for (var j = 0; j < friends[i].scores[j]; j++){
-        totalDifference = Math.abs(parseInt(userScores[j])-parseInt(friends[i].scores[j]));
+      for (var j = 0; j < friends[i].friendscore[j]; j++){
+        totalDifference = Math.abs(parseInt(userScores[j])-parseInt(friends[i].friendscore[j]));
         if(totalDifference <= bestMatch.friendDifference){
 
           bestMatch.name = friends[i].name;
